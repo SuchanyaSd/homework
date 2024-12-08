@@ -6,19 +6,54 @@
     <title>Contact</title>
 
     <style>
-      form div {
-        padding-top: 10px;
+       .form {
+        width: 24%;
+        margin: 0 30px;
+        padding: 20px;
+        border: 1px solid #000000;
+        background-color: #f9f9f9;
       }
 
-      .head {
-        padding-bottom: 10px;
-        padding-top: 0%;
+      .form .head {
+        font-size: 18px;
+        margin-bottom: 10px;
       }
 
-      .form {
-        padding: 15px;
-        width: 18%;
-        border: 1px solid black;
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+      }
+
+      input, select, textarea {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+
+      .buttom {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button[type="reset"] {
+        background-color: #f44336;
+      }
+
+      button:hover {
+        opacity: 0.8;
       }
     </style>
   </head>
