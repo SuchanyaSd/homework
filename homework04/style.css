@@ -56,6 +56,10 @@ body, html {
     font-size: 20px;
 }
 
+.move-placeholder {
+    padding-left: 29px;
+}
+
 .i-con {
     display: flex;
     align-items: center;
