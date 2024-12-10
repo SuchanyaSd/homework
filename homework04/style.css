@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "IBM Plex Sans Thai", sans-serif;
 }
 
 body, html {
@@ -65,12 +68,11 @@ body, html {
 }
 
 .i-con i {
-    font-size: 30px;
+    font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    
+    gap: 10px;   
 }
 
 .i-con i span {
